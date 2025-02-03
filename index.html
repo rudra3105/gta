@@ -84,29 +84,41 @@
                     <div class="search__area">
                         <form action="index.html" class="search-form">
                             <div class="input-group">
+                                <span>Name</span>
+                                <div class="input-container">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name" autocomplete="off" required />
+                                </div>
+                            </div>
+                            <div class="input-group">
                                 <span>Destination</span>
                                 <div class="input-container">
-                                    <input type="text" class="form-control" id="destination" placeholder="Where to go?" autocomplete="off" required />
+                                    <input type="text" class="form-control" id="type" placeholder="Your Destination" autocomplete="off" required />
                                 </div>
                             </div>
                             <div class="input-group">
-                                <span>Type</span>
+                              <span>Mobile Number</span>
+                              <div class="input-container">
+                                  <input type="number" class="form-control" id="type" placeholder="Your Mobile No." autocomplete="off" required />
+                              </div>
+                          </div>
+                            <div class="input-group">
+                                <span>Travel Date</span>
                                 <div class="input-container">
-                                    <input type="text" class="form-control" id="type" placeholder="Activity" autocomplete="off" required />
+                                    <input type="date" class="form-control" id="daterange" name="daterange" value="2000-01-01" />
                                 </div>
                             </div>
                             <div class="input-group">
-                                <span>When</span>
-                                <div class="input-container">
-                                    <input type="date" class="form-control" id="daterange" name="daterange" value="2000-05-24" />
-                                </div>
-                            </div>
-                            <div class="input-group">
-                                <span>Guests</span>
+                                <span>No. of persons</span>
                                 <div class="input-container">
                                     <input type="number" class="form-control" id="guests" placeholder="0" autocomplete="off" required />
                                 </div>
                             </div>
+                            <div class="input-group">
+                              <span>Tickets booked or not?</span>
+                              <div class="input-container">
+                                  <input type="text" class="form-control" id="type" placeholder="Yes/Noz" autocomplete="off" required />
+                              </div>
+                          </div>
                             <div class="input-group">
                                 <button class="common-btn color-one">search</button>
                             </div>
@@ -258,32 +270,46 @@
                         <div class="hero__search-area search__area fade_bottom">
                             <form action="index.html" class="search-form">
                                 <div class="input-group">
+                                    <span>Name</span>
+                                    <div class="input-container">
+                                        <input type="text" class="form-control" id="Name" placeholder="Your Name" autocomplete="off" required />
+                                    </div>
+                                </div>
+                                <div class="input-group">
                                     <span>Destination</span>
                                     <div class="input-container">
-                                        <input type="text" class="form-control" id="destination2" placeholder="Where to go?" autocomplete="off" required />
+                                        <input type="text" class="form-control" id="type2" placeholder="Your Destination" autocomplete="off" required />
                                     </div>
                                 </div>
                                 <div class="input-group">
-                                    <span>Type</span>
+                                    <span>Travel Date</span>
                                     <div class="input-container">
-                                        <input type="text" class="form-control" id="type2" placeholder="Activity" autocomplete="off" required />
+                                        <input type="date" class="form-control" id="daterange2" name="daterange2" value="2000-01-01" />
                                     </div>
                                 </div>
                                 <div class="input-group">
-                                    <span>When</span>
-                                    <div class="input-container">
-                                        <input type="date" class="form-control" id="daterange2" name="daterange2" value="2000-05-24" />
-                                    </div>
-                                </div>
-                                <div class="input-group">
-                                    <span>Guests</span>
+                                    <span>Mobile Number</span>
                                     <div class="input-container">
                                         <input type="number" class="form-control" id="guests2" placeholder="0" autocomplete="off" required />
                                     </div>
                                 </div>
+
                                 <div class="input-group">
-                                    <button class="common-btn color-one">search</button>
+                                  <span>No. of Persons</span>
+                                  <div class="input-container">
+                                      <input type="number" class="form-control" id="guests2" placeholder="0" autocomplete="off" required />
+                                  </div>
+                              </div>
+
+                              <div class="input-group">
+                                <span>Tickets booked or not</span>
+                                <div class="input-container">
+                                    <input type="text" class="form-control" id="type2" placeholder="Yes/No" autocomplete="off" required />
                                 </div>
+                            </div>
+                            <div class="input-group">
+                              <button class="common-btn color-one">search</button>
+                          </div>
                             </form>
                         </div>
                     </div>
