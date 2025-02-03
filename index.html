@@ -31,6 +31,33 @@
 </head>
 
 <body class="custom-cursor">
+
+  <style>
+    .whatsapp-button {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        z-index: 1000;
+    }
+
+    .whatsapp-button img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .whatsapp-button img:hover {
+        transform: scale(1.1);
+    }
+</style>
+</head>
+<body>
+
+<a href="https://wa.me/+918121787207" class="whatsapp-button" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+</a>
     <!-- Custom Cursor start -->
     <div class="custom-cursor__cursor"></div>
     <div class="custom-cursor__cursor-two"></div>
@@ -50,6 +77,7 @@
     <!-- back to top button start-->
     <a href="#" id="scroll-top" class="back-to-top-btn"><i class="fa-solid fa-arrow-up"></i
     ></a>
+    
     <!-- back to top button end-->
 
     <!-- Mobile Menu side Bar Start  -->
@@ -84,43 +112,43 @@
                     <div class="search__area">
                         <form action="index.html" class="search-form">
                             <div class="input-group">
-                                <span>Name</span>
+                                <span style="font-family:'Times New Roman', Times, serif;">Name</span>
                                 <div class="input-container">
                                     <input type="text" class="form-control" id="name" placeholder="Your Name" autocomplete="off" required />
                                 </div>
                             </div>
                             <div class="input-group">
-                                <span>Destination</span>
+                                <span style="font-family:'Times New Roman', Times, serif;">Destination</span>
                                 <div class="input-container">
                                     <input type="text" class="form-control" id="type" placeholder="Your Destination" autocomplete="off" required />
                                 </div>
                             </div>
                             <div class="input-group">
-                              <span>Mobile Number</span>
+                              <span style="font-family:'Times New Roman', Times, serif;">Mobile Number</span>
                               <div class="input-container">
                                   <input type="number" class="form-control" id="type" placeholder="Your Mobile No." autocomplete="off" required />
                               </div>
                           </div>
                             <div class="input-group">
-                                <span>Travel Date</span>
+                                <span style="font-family:'Times New Roman', Times, serif;">Travel Date</span>
                                 <div class="input-container">
                                     <input type="date" class="form-control" id="daterange" name="daterange" value="2000-01-01" />
                                 </div>
                             </div>
                             <div class="input-group">
-                                <span>No. of persons</span>
+                                <span style="font-family:'Times New Roman', Times, serif;">No. of persons</span>
                                 <div class="input-container">
                                     <input type="number" class="form-control" id="guests" placeholder="0" autocomplete="off" required />
                                 </div>
                             </div>
                             <div class="input-group">
-                              <span>Tickets booked or not?</span>
+                              <span style="font-family:'Times New Roman', Times, serif;">Tickets booked or not?</span>
                               <div class="input-container">
                                   <input type="text" class="form-control" id="type" placeholder="Yes/Noz" autocomplete="off" required />
                               </div>
                           </div>
                             <div class="input-group">
-                                <button class="common-btn color-one">search</button>
+                                <button class="common-btn color-one">Submit</button>
                             </div>
                         </form>
                     </div>
@@ -251,7 +279,7 @@
                 <div class="row g-4">
                     <div class="col-md-5">
                         <div class="hero__content">
-                            <h3 class="hero-sub-title d-inline-block">Explore The</h3>
+                            <h3 class="hero-sub-title d-inline-block" style="font-family:'Times New Roman', Times, serif;">Explore The</h3>
                             <h1 class="hero-title char-animation">Travel & Adventures</h1>
                             <p class="mt-2">Find awesome hotel, tour, car and activities in India</p>
                         </div>
@@ -270,45 +298,45 @@
                         <div class="hero__search-area search__area fade_bottom">
                             <form action="index.html" class="search-form">
                                 <div class="input-group">
-                                    <span>Name</span>
+                                    <span style="font-family:'Times New Roman', Times, serif;">Name</span>
                                     <div class="input-container">
                                         <input type="text" class="form-control" id="Name" placeholder="Your Name" autocomplete="off" required />
                                     </div>
                                 </div>
                                 <div class="input-group">
-                                    <span>Destination</span>
+                                    <span style="font-family:'Times New Roman', Times, serif;">Destination</span>
                                     <div class="input-container">
                                         <input type="text" class="form-control" id="type2" placeholder="Your Destination" autocomplete="off" required />
                                     </div>
                                 </div>
                                 <div class="input-group">
-                                    <span>Travel Date</span>
+                                    <span style="font-family:'Times New Roman', Times, serif;">Travel Date</span>
                                     <div class="input-container">
                                         <input type="date" class="form-control" id="daterange2" name="daterange2" value="2000-01-01" />
                                     </div>
                                 </div>
                                 <div class="input-group">
-                                    <span>Mobile Number</span>
+                                    <span style="font-family:'Times New Roman', Times, serif;">Mobile Number</span>
                                     <div class="input-container">
                                         <input type="number" class="form-control" id="guests2" placeholder="0" autocomplete="off" required />
                                     </div>
                                 </div>
 
                                 <div class="input-group">
-                                  <span>No. of Persons</span>
+                                  <span style="font-family:'Times New Roman', Times, serif;">No. of Persons</span>
                                   <div class="input-container">
                                       <input type="number" class="form-control" id="guests2" placeholder="0" autocomplete="off" required />
                                   </div>
                               </div>
 
                               <div class="input-group">
-                                <span>Tickets booked or not</span>
+                                <span style="font-family:'Times New Roman', Times, serif;">Tickets booked or not</span>
                                 <div class="input-container">
                                     <input type="text" class="form-control" id="type2" placeholder="Yes/No" autocomplete="off" required />
                                 </div>
                             </div>
                             <div class="input-group">
-                              <button class="common-btn color-one">search</button>
+                              <button class="common-btn color-one">Submit</button>
                           </div>
                             </form>
                         </div>
@@ -327,7 +355,7 @@
                 <div class="row g-4">
                     <div class="col-12">
                         <div class="section__header">
-                            <h4 class="section__sub-title">Browse By Category</h4>
+                            <h4 class="section__sub-title" style="font-family:'Times New Roman', Times, serif;">Browse By Category</h4>
                             <h2 class="section__title title-anim">Pick A Tour Type</h2>
                         </div>
                     </div>
@@ -414,7 +442,7 @@
               <div
                 class="section__header choos-us__content text-start"
               >
-                <h4 class="section__sub-title">Why Choose Us</h4>
+                <h4 class="section__sub-title" style="font-family:'Times New Roman', Times, serif;">Why Choose Us</h4>
                 <h2 class="section__title title-anim">
                   Plan Your Trip <br class="d-none d-md-block" />
                   with GTA
@@ -463,7 +491,7 @@
           <div class="row g-4 align-items-end">
             <div class="col-md-6">
               <div class="sestination__header section__header text-md-start">
-                <h4 class="section__sub-title">Destination</h4>
+                <h4 class="section__sub-title"style="font-family:'Times New Roman', Times, serif;">Destination</h4>
                 <h2 class="section__title title-anim">Top Destinations</h2>
               </div>
             </div>
@@ -548,7 +576,7 @@
           <div class="row">
             <div class="col-12">
               <div class="section__header">
-                <h4 class="section__sub-title text-white">Tours</h4>
+                <h4 class="section__sub-title text-white" style="font-family:'Times New Roman', Times, serif;">Tours</h4>
                 <h2 class="section__title title-anim text-white">
                   Featured Tours
                 </h2>
@@ -685,7 +713,7 @@
           <div class="row g-4 justify-content-between">
             <div class="col-md-6 col-lg-4">
               <div class="section__header choos-us2__content text-start">
-                <h4 class="section__sub-title">Why We Are Best</h4>
+                <h4 class="section__sub-title" style="font-family:'Times New Roman', Times, serif;">Why We Are Best</h4>
                 <h2 class="section__title title-anim">
                   Keep Things <br class="d-none d-md-block" />
                   Flexible
@@ -703,9 +731,9 @@
                         <span
                           class="odometer d-inline-block"
                           data-odometer-final="120"
-                          >.</span
+                          style="font-family:'Times New Roman', Times, serif;">.</span
                         >
-                        <em>+</em>
+                        <em style="font-family:'Times New Roman', Times, serif;">+</em>
                       </h3>
                       <p>Total Destination</p>
                     </div>
@@ -718,9 +746,9 @@
                         <span
                           class="odometer d-inline-block"
                           data-odometer-final="12"
-                          >.</span
+                          style="font-family:'Times New Roman', Times, serif;">.</span
                         >
-                        <em>k+</em>
+                        <em style="font-family:'Times New Roman', Times, serif;">k+</em>
                       </h3>
                       <p>Total Travelers</p>
                     </div>
@@ -733,9 +761,9 @@
                         <span
                           class="odometer d-inline-block"
                           data-odometer-final="500"
-                          >.</span
+                          style="font-family:'Times New Roman', Times, serif;">.</span
                         >
-                        <em>+</em>
+                        <em style="font-family:'Times New Roman', Times, serif;">+</em>
                       </h3>
                       <p>Travel Packages</p>
                     </div>
@@ -748,9 +776,9 @@
                         <span
                           class="odometer d-inline-block"
                           data-odometer-final="7"
-                          >.</span
+                          style="font-family:'Times New Roman', Times, serif;">.</span
                         >
-                        <em>k+</em>
+                        <em style="font-family:'Times New Roman', Times, serif;">k+</em>
                       </h3>
                       <p>Positive Reviews</p>
                     </div>
@@ -784,7 +812,7 @@
           <div class="row g-4 justify-content-center">
             <div class="col-md-10 col-xl-5">
               <div class="section__header">
-                <h4 class="section__sub-title">Testimonial</h4>
+                <h4 class="section__sub-title" style="font-family:'Times New Roman', Times, serif;">Testimonial</h4>
                 <h2 class="section__title title-anim">
                   What our customer says about us
                 </h2>
@@ -891,7 +919,7 @@
             <div class="col-12 col-md-6">
               <div class="section__header travel__content text-start">
                 
-                                                    <h4 class="section__sub-title">Are you ready to travel?</h4>
+                                                    <h4 class="section__sub-title" style="font-family:'Times New Roman', Times, serif;">Are you ready to travel?</h4>
                                                     <h2 class="section__title title-anim text-white">
                                                         Globetrottersofficial is a World Leading Online Tour Booking Platform
                                                     </h2>
@@ -960,7 +988,7 @@
           <div class="row">
             <div class="col-12">
               <div class="section__header">
-                <h4 class="section__sub-title">Our trusted partners</h4>
+                <h4 class="section__sub-title" style="font-family:'Times New Roman', Times, serif;">Our trusted partners</h4>
               </div>
             </div>
             <div class="col-12 mt-4">
@@ -1220,7 +1248,7 @@
                   <img src="./assets/images/logo.png" alt="logo" />
                 </a>
                             <div class="help-info">
-                                <span>Need any help?</span>
+                                <span style="font-family:'Times New Roman', Times, serif;">Need any help?</span>
                                 <h6 class="text-white">
                                     Call Us:
                                     <a href="tel:+91 81217 87207" class="text-light-minion-yellow">+91 81217 87207</a
